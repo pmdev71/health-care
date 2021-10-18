@@ -1,0 +1,85 @@
+[
+    
+    {
+        "id": 1001,
+        "courseName": "Complete Python Bootcamp From Zero to Hero in Python",
+        "language": "English",
+        "creator": "Jose Portilla",
+        "details":"This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3.",
+        "fee": 13.99,
+        "img": "https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg"
+    },
+    {
+        "id": 1002,
+        "courseName": "Machine Learning A-Z™: Hands-On Python & R In Data Science",
+        "language": "Hinde",
+        "creator": "Kirle josef",
+        "details":"This course has been designed by two professional Data Scientists so that we can share our knowledge and help you learn complex theory, algorithms, and coding libraries in a simple way.We will walk you step-by-step into the World of Machine Learning. With every tutorial, you will develop new skills and improve your understanding of this challenging yet lucrative sub-field of Data Science.",
+        "fee": 14.99,
+        "img": "https://img-c.udemycdn.com/course/240x135/950390_270f_3.jpg"
+    },
+    {
+        "id": 1003,
+        "courseName": "The Complete 2021 Web Development Bootcamp",
+        "language": "English",
+        "creator": "Angle YU",
+        "details":"Welcome to the Complete Web Development Bootcamp, the only course you need to learn to code and become a full-stack web developer. With over 12,000 ratings and a 4.8 average, my Web Development course is one of the HIGHEST RATED courses in the history of Udemy! ",
+        "fee": 12.50,
+        "img": "https://img-c.udemycdn.com/course/240x135/1565838_e54e_12.jpg"
+    },
+    {
+        "id": 1004,
+        "courseName": "Ultimate AWS Certified Solutions Architect Associate 2021",
+        "language": "English",
+        "creator": "Stiffen Maarek",
+        "details":"The AWS Certified Solutions Architect Associate certification is one of the most challenging exams. It's great at assessing how well you understand not just AWS, but making sure you are making the best architectural decisions based on situations, which makes this certification incredibly valuable to have and pass.",
+        "fee": 11.99,
+        "img": "https://img-c.udemycdn.com/course/240x135/2196488_8fc7_7.jpg"
+    },
+    {
+        "id": 1005,
+        "courseName": "Django Full Stack Web Developer Bootcamp",
+        "language": "Hinde",
+        "creator": "Jose Portilla",
+        "details":"We will teach you the latest technologies for building great web applications with Python 3 and Django! But we don't just teach that, we also teach the Front End technologies you need to know, including HTML, CSS, and Javascript. This course can be your one stop shop for everything you need! It will serve as a useful reference for many of your questions as you begin your journey in becoming a web developer!",
+        "fee": 13.99,
+        "img": "https://img-c.udemycdn.com/course/240x135/822444_a6db.jpg"
+    },
+    {
+        "id": 1006,
+        "courseName": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+        "language": "English",
+        "creator": "Hasghfi Dev",
+        "details":"React.js is THE most popular JavaScript library you can use and learn these days to build modern, reactive user interfaces for the web.This course teaches you React in-depth, from the ground up, step by step by diving into all the core basics, exploring tons of examples and also introducing you to advanced concepts as well.",
+        "fee": 14.99,
+        "img": "https://img-c.udemycdn.com/course/240x135/1362070_b9a1_2.jpg"
+    },
+    {
+        "id": 1007,
+        "courseName": "The Complete SQL Bootcamp 2021: Go from Zero to Hero",
+        "language": "English",
+        "creator": "Angel Jkeer",
+        "details":"You'll learn how to read and write complex queries to a database using one of the most in demand skills - PostgreSQL. These skills are also applicable to any other major SQL database, such as MySQL, Microsoft SQL Server, Amazon Redshift, Oracle, and much more .Learning SQL is one of the fastest ways to improve your career prospects as it is one of the most in demand tech skills!",
+        "fee": 12.50,
+        "img": "https://img-c.udemycdn.com/course/240x135/1350984_2355_6.jpg"
+    },
+    {
+        "id": 1008,
+        "courseName": "REST APIs with Flask and Python",
+        "language": "Hinde",
+        "creator": "Sifat Siflu",
+        "details":"This course will guide you in creating simple, intermediate, and advanced REST APIs including authentication, deployments, databases, and much more.We'll start with a Python refresher that will take you from the very basics to some of the most advanced features of Python—that's all the Python you need to complete the course.",
+        "fee": 11.99,
+        "img": "https://img-c.udemycdn.com/course/240x135/970600_68be_4.jpg"
+    },
+    {
+        "id": 1009,
+        "courseName": "Complete React Native in 2021: Zero to Mastery [with Hooks]",
+        "language": "English",
+        "creator": "Mo Binni",
+        "details":"We guarantee you this is the most comprehensive online resource on React Native. This project based course will introduce you to all of the modern toolchain of a React Native app developer in 2021. Along the way, we will build a massive restaurant application using React, React Hooks, Expo, React Navigation, Firebase, Styled-Components, Google Maps/Places API, React Animations.",
+        "fee": 11.99,
+        "img": "https://img-c.udemycdn.com/course/240x135/2994426_f0fa_2.jpg"
+    }
+    
+]

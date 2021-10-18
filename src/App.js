@@ -3,21 +3,23 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Home from './Pages/Home/Home';
-import Login from './Pages/Login/Login';
+import Login from './Pages/Login/Login/Login';
 import NotFound  from './Pages/NotFound/NotFound';
 import Header from './Pages/Shared/Header/Header';
 import Footer from './Pages/Shared/Footer/Footer';
 import About from './Pages/About/About';
+import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
+import AuthProvider from './context/AuthProvider';
 
 
 function App() {
   return (
     <div className="App">
-        <Router>
+      <AuthProvider>
+      <Router>
           <Header></Header>
           <Switch>
             <Route exact path="/">
@@ -29,6 +31,9 @@ function App() {
             <Route path="/about">
               <About></About>
             </Route>
+            <Route path="/service-details/:serviceID">
+              <ServiceDetails></ServiceDetails>
+            </Route>
             <Route path="/login">
               <Login></Login>
             </Route>
@@ -38,6 +43,8 @@ function App() {
           </Switch>
           <Footer></Footer>
         </Router>
+      </AuthProvider>
+        
     </div>
   );
 }
