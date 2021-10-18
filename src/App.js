@@ -13,6 +13,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 import About from './Pages/About/About';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 
 
 function App() {
@@ -31,9 +32,9 @@ function App() {
             <Route path="/about">
               <About></About>
             </Route>
-            <Route path="/service-details/:serviceID">
+            <PrivateRoute path="/service-details/:serviceID">
               <ServiceDetails></ServiceDetails>
-            </Route>
+            </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>

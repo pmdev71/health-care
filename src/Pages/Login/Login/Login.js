@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import { Button, Col, Form, Row } from 'react-bootstrap';
+import { useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../hooke/useAuth';
 
 const Login = () => {
     const {signInUsingGoogle, signInWithPassword} = useAuth();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    // const location = useLocation();
+    // const history = useHistory();
 
     const handelEmailChange = e =>{
         setEmail(e.target.value);
@@ -20,8 +23,8 @@ const Login = () => {
     }
 
     return (
-        <div>
-            <Form onSubmit={handelRegistration} className="w-25 mx-auto">
+        <div >
+            <Form onSubmit={handelRegistration} className="w-25 mx-auto mt-5">
                 <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
                     <Form.Label column sm={2}>
                     Email
@@ -46,15 +49,15 @@ const Login = () => {
                     </Col>
                 </Form.Group>
 
-                <Form.Group as={Row} className="mb-3">
+                <Form.Group as={Row} className="my-3">
                     <Col sm={{ span: 8, offset: 2 }}>
                     <Button type="submit">Sign in</Button>
                     </Col>
                 </Form.Group>
             </Form>
             
-            <h3>-----------OR-----------</h3>
-            <button className="btn btn-primary" onClick={signInUsingGoogle}>Google SignIn</button>
+            <p>-----------OR-----------</p>
+            <button className="btn btn-primary mb-3" onClick={signInUsingGoogle}>Google Sign in</button>
         </div>
     );
 };
