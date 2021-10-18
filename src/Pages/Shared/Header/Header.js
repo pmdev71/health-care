@@ -11,7 +11,7 @@ const Header = () => {
             <Navbar className="w-75 mx-auto" bg="light" variant="light" sticky="top" collapseOnSelect expand="lg" >
                 <Container>
                     
-                    <Navbar.Brand href="#home"><img className="logo-img" src="https://seeklogo.com/images/H/hospital-clinic-plus-logo-7916383C7A-seeklogo.com.png" alt="" />{'  '}<span className="fw-bold text-dar">HealthCare</span></Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/home"><img className="logo-img mb-2" src="https://seeklogo.com/images/H/hospital-clinic-plus-logo-7916383C7A-seeklogo.com.png" alt="" />{'  '}<span className="fs-3 fw-bold text-dar">HealthCare</span></Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link className="bg-dark fw-bold text-white me-2" as={Link} to="/home">Home</Nav.Link>
@@ -25,7 +25,7 @@ const Header = () => {
                         
                         {
                         user.email && <Navbar.Text>
-                            LogIn: <small className="text-primary">{user.displayName}</small>
+                            LogIn: <small className="text-primary">{user.email}</small>
                         </Navbar.Text>
                         }
                         

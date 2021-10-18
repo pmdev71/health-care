@@ -4,12 +4,15 @@ import { useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../hooke/useAuth';
 
 const Login = () => {
-    const {signInUsingGoogle, signInWithPassword} = useAuth();
+    const {signInUsingGoogle, signInWithPassword, logInWithPassword} = useAuth();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [isNotLogin, setIsNotlogin] = useState(false);
     // const location = useLocation();
     // const history = useHistory();
-
+    const toggleLogin = e =>{
+        setIsNotlogin(e.target.checked);
+    }
     const handelEmailChange = e =>{
         setEmail(e.target.value);
     }
@@ -21,11 +24,18 @@ const Login = () => {
         signInWithPassword(email,password);
         e.preventDefault(); 
     }
+    const handelLogin = e =>{
+        console.log(email, password);
+        logInWithPassword(email,password);
+        e.preventDefault(); 
+    }
 
     return (
         <div >
-            <Form onSubmit={handelRegistration} className="w-25 mx-auto mt-5">
+            <div>
+            <Form className="w-25 mx-auto mt-5">
                 <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
+                    <h2>{ isNotLogin? "Registration First" : "Loging Now"  }</h2>
                     <Form.Label column sm={2}>
                     Email
                     </Form.Label>
@@ -43,18 +53,22 @@ const Login = () => {
                     </Col>
                 </Form.Group>
                 
-                <Form.Group as={Row} className="mb-3" controlId="formHorizontalCheck">
+                <Form.Group onChange={toggleLogin} as={Row} className="mb-3" controlId="formHorizontalCheck">
                     <Col sm={{ span: 2, offset: 2 }}>
-                    <Form.Check label="Remember" />
+                    <Form.Check label="New?"/>
                     </Col>
                 </Form.Group>
 
                 <Form.Group as={Row} className="my-3">
                     <Col sm={{ span: 8, offset: 2 }}>
-                    <Button type="submit">Sign in</Button>
+                    {
+                    isNotLogin? <Button onClick={handelRegistration}>Register</Button> : <Button onClick={handelLogin}>Login</Button> }
                     </Col>
                 </Form.Group>
             </Form>
+
+            </div>
+            
             
             <p>-----------OR-----------</p>
             <button className="btn btn-primary mb-3" onClick={signInUsingGoogle}>Google Sign in</button>
