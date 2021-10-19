@@ -1,13 +1,13 @@
 .card{
     padding: 10px;
     border: 1px solid rgb(59, 58, 58);
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 .card:hover{
-    border: 1px solid rgb(124, 111, 111);
-    border-radius: 10px;
-    background-color: rgb(233, 229, 229);
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 5px;
+    background-color: rgb(226, 236, 240);
 
 }
 
@@ -16,8 +16,8 @@
 }
 
 .cardTitle{
-    height: 70px;
+    height: 30px;
 }
 .cardDetails{
-    height: 200px;
+    height: 130px;
 }

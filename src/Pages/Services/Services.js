@@ -14,7 +14,7 @@ const Services = () => {
 
     return (
         <div className="w-75 mx-auto mt-4">
-            <h2 className="fw-bold p-2 mb-4 bg-secondary text-white">Our All Services</h2>
+            <h2 className="fw-bold p-2 mb-4 bg-secondary text-white">Our Treatments/Services</h2>
             <Row xs={1} md={3} className="g-4">
             {
                 // map services and call Service component

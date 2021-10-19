@@ -1,8 +1,20 @@
-# Getting Started with Create React App
+# MANDAL EYE Care Hospital
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Live Site Link
 
-## Available Scripts
+Firebase live site link: [https://health-care-b8ac1.web.app/](https://health-care-b8ac1.web.app/)
+
+### Short Description
+This is an Eye Care Hospital Website for the eye disease patient or any user. Here patient can Register/login using gmail-password or directly using gmail. Patient can easily found all doctor information on about us page. They can know about our all Treatments/Services on home page. By login on the website user easily access the full details of a Treatment/Service. User can contact with hospital management team by using contact form. User get top news on the top banner section.
+ 
+
+### Project Details
+<ul>
+    <li>Using ReactBootstrap Fremwork and Pure CSS</li>
+    <li>Using Browser Router</li>
+    <li>Using Local JSON</li>
+    <li>Different componamt added</li>
+</ul>
 
 In the project directory, you can run:
 

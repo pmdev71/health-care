@@ -10,36 +10,36 @@ const MyCarousel = () => {
             <Carousel.Item>
                 <img
                 className="d-block w-100 caruselImage"
-                src="https://www.tutorialrepublic.com/lib/images/css-illustration.png"
+                src="https://content.specsavers.com/anz/au/assets/img/eye_health/landing/eye-health_eyetest-banner-545x273.jpg"
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                <h3>Learn CSS3 With us</h3>
-                <p>CSS is a computer language for laying out and structuring web pages.</p>
+                <h3>Your Cataract Surgery</h3>
+                <p>Removing Cloudy Vision Quickly and Painlessly.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block w-100 caruselImage"
-                src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200711122552/Python-Programming-Language.png"
+                src="https://cataractsurgeryca.com/wp-content/uploads/2020/01/Cataract-Surgery-banner-male.jpg"
                 alt="Second slide"
                 />
 
                 <Carousel.Caption>
-                <h3>Learn PYTHON With us</h3>
-                <p>Python is a computer programming language often used to build websites and software.</p>
+                <h3>Dry Eye Treatment</h3>
+                <p>Dry Eye Is More Common Than You Think!.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block w-100 caruselImage"
-                src="https://www.tutorialrepublic.com/lib/images/html-illustration.png"
+                src="https://www.apollospectra.com/wp-content/uploads/2016/01/banner1-1032x272.png"
                 alt="Third slide"
                 />
 
                 <Carousel.Caption>
-                <h3>Learn HTML5 With us</h3>
-                <p>HTML elements are the building blocks of HTML pages.</p>
+                <h3>Premium Lens Implants</h3>
+                <p>Finding the Lens That’s Right for You.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

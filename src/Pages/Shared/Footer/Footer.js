@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="w-75 mx-auto mt-5 bg-light">
-            <small>Footer@health.com</small>
+        <div className=" mt-5 bg-dark text-white">
+            <small>All right reserved © Mandal-EyeCare</small>
         </div>
     );
 };

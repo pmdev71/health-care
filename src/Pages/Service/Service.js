@@ -6,7 +6,7 @@ import "./Service.css"
 
 const Service = (props) => {
   // destructuring
-    const{ id, courseName, img, fee, language, creator, details}=props.service;
+    const{ id, serviceName, img, details}=props.service;
     return (
         
       <Col>
@@ -14,19 +14,14 @@ const Service = (props) => {
       <Card className="card">
         <Card.Img className="cardImage" variant="top" src={img} />
         <Card.Body>
-          <Card.Title className="cardTitle">{courseName}</Card.Title>
-          <h3 className="text-danger fw-bold">${fee}</h3>
+          <Card.Title className="cardTitle text-regular fs-3 fw-bold">{serviceName}</Card.Title>
           <hr></hr>
-          <div className="d-flex justify-content-between">
-            <p className="bg-info fw-bold px-4  rounded-pill text-white">{creator}</p>
-            <p className="bg-info fw-bold px-4  rounded-pill text-white">{language}</p>
-          </div>
           
           <Card.Text className="cardDetails">
             {details}
           </Card.Text>
           <Link to={`/service-details/${id}`} >
-            <Button className="w-100 fw-bold" variant="success">Details</Button>
+            <Button className="w-100 fw-bold" variant="success">Details of {serviceName}</Button>
           </Link>
           
         </Card.Body>

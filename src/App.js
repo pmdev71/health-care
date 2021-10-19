@@ -14,6 +14,7 @@ import About from './Pages/About/About';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
+import Contact from './Pages/Contact/Contact';
 
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About></About>
+            </Route>
+            <Route path="/contact">
+              <Contact></Contact>
             </Route>
             <PrivateRoute path="/service-details/:serviceID">
               <ServiceDetails></ServiceDetails>

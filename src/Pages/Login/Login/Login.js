@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { Button, Col, Form, Row } from 'react-bootstrap';
-import { useLocation, useHistory } from 'react-router-dom';
+// import { useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../hooke/useAuth';
 
 const Login = () => {
-    const {signInUsingGoogle, signInWithPassword, logInWithPassword} = useAuth();
+    const {signInUsingGoogle, signInWithPassword, logInWithPassword, error} = useAuth();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [errormsg, setErrormsg] = useState("");
     const [isNotLogin, setIsNotlogin] = useState(false);
     // const location = useLocation();
     // const history = useHistory();
@@ -20,24 +21,39 @@ const Login = () => {
         setPassword(e.target.value);
     }
     const handelRegistration = e =>{
+        e.preventDefault();
+        setErrormsg("");
+        if(password.length < 6){
+            setErrormsg("Password should be 6 character ");
+            return;
+        }
         console.log(email, password);
         signInWithPassword(email,password);
-        e.preventDefault(); 
+        
     }
+
     const handelLogin = e =>{
+        e.preventDefault();
+        setErrormsg("");
+        if(password.length < 6){
+            setErrormsg("Password should be 6 character ");
+            return;
+        }
         console.log(email, password);
         logInWithPassword(email,password);
-        e.preventDefault(); 
+         
     }
 
     return (
-        <div >
+        <div className="my-5 mx-auto">
             <div>
+            <h2 className="fw-bold p-2 my-4 bg-secondary text-white w-75 mx-auto">{ isNotLogin? "Registration First" : "Loging Now"  }</h2>
             <Form className="w-25 mx-auto mt-5">
                 <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
-                    <h2>{ isNotLogin? "Registration First" : "Loging Now"  }</h2>
-                    <Form.Label column sm={2}>
-                    Email
+                    <h5 className="text-danger"> {error} </h5>
+                    <h5 className="text-danger"> {errormsg} </h5>
+                    <Form.Label className="fs-6 fw-bold" column sm={2}>
+                    Email:
                     </Form.Label>
                     <Col sm={10}>
                     <Form.Control onBlur={handelEmailChange} type="email" placeholder="Email" required />
@@ -45,8 +61,8 @@ const Login = () => {
                 </Form.Group>
 
                 <Form.Group as={Row} className="mb-3" controlId="formHorizontalPassword">
-                    <Form.Label column sm={2}>
-                    Password
+                    <Form.Label className="fs-6 fw-bold" column sm={2}>
+                    Password:
                     </Form.Label>
                     <Col sm={10}>
                     <Form.Control onBlur={handelPasswordChange} type="password" placeholder="Password" required />
