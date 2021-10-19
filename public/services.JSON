@@ -1,40 +1,44 @@
 [
-    
     {
         "id": 1001,
         "serviceName": "Cataract Surgery",
-        "details":"In the normal eye the lens inside is clear and transparent, but when cataract develops it becomes cloudy and opaque. So the light is not focused on the retina through lens which leads to blurring of vision",
+        "details": "In the normal eye the lens inside is clear and transparent, but when cataract develops it becomes cloudy and opaque. So the light is not focused on the retina through lens which leads to blurring of vision",
+        "moreDetails": "There are no medicines with proven efficacy to prevent or treat cataract. The only effective treatment for cataract involves surgery is to remove the cataract and replace it with an intraocular lens implant. It is the most common surgical procedure around the world and is considered to be extremely successful and safe. Diabetes, hypertension and other general health problems are not a contraindication for cataract surgery and the cataract need not ‘mature’ for surgery. A cataract needs to be removed when vision loss interferes with your everyday activities, such as driving, reading, or watching TV. You and your eye care professional can make this decision together. Sometimes a cataract should be removed even if it does not cause problems with your vision. For example, a cataract should be removed if it prevents examination or treatment of another eye problem, such as age related macular degeneration or diabetic retinopathy. If you have cataracts in both eyes that require surgery, the surgery will be performed on each eye at separate times. Many people who need cataract surgery also have other eye conditions, such as age related macular degeneration or glaucoma. If you have other eye conditions in addition to cataract, talk with your doctor. Learn about the risks, benefits, alternatives, and expected results of cataract surgery.",
         "img": "https://dhakaeyecarehospital.org/image/a46c3-cataract-picture.jpg"
     },
     {
         "id": 1002,
         "serviceName": "Glaucoma",
-        "details":"It is an eye disease that can cause loss of vision. Often called as “Sneak Thief Of Sight” , Glaucoma is deadly because there are no early warning signs. In fact, you may be suffering from Glaucoma but do not know it.",
+        "details": "It is an eye disease that can cause loss of vision. Often called as “Sneak Thief Of Sight” , Glaucoma is deadly because there are no early warning signs. In fact, you may be suffering from Glaucoma but do not know it.",
+        "moreDetails": "These increase the outflow of the fluid in your eye (aqueous humor) and reduce pressure in your eye. Examples include latanoprost (Xalatan) and bimatoprost (Lumigan). Possible side effects include mild reddening and stinging of the eyes, darkening of the iris, changes in the pigment of the eyelashes or eyelid skin, and blurred vision.These increase the outflow of the fluid in your eye (aqueous humor) and reduce pressure in your eye. Examples include latanoprost (Xalatan) and bimatoprost (Lumigan). Possible side effects include mild reddening and stinging of the eyes, darkening of the iris, changes in the pigment of the eyelashes or eyelid skin, and blurred vision.These increase the outflow of the fluid in your eye (aqueous humor) and reduce pressure in your eye. Examples include latanoprost (Xalatan) and bimatoprost (Lumigan). Possible side effects include mild reddening and stinging of the eyes, darkening of the iris, changes in the pigment of the eyelashes or eyelid skin, and blurred vision.",
         "img": "https://www.eyecarehospital.org/wp-content/uploads/2019/01/Glaucoma.jpg"
     },
     {
         "id": 1003,
         "serviceName": "OptiLasik",
-        "details":"A 10 minute procedure that corrects the shape of the cornea, helps the light falling on the cornea to properly reach the retina, thus improving the vision and reducing the dependency on glasses or contact lenses.",
+        "details": "A 10 minute procedure that corrects the shape of the cornea, helps the light falling on the cornea to properly reach the retina, thus improving the vision and reducing the dependency on glasses or contact lenses.",
+        "moreDetails": "Dry eye is a chronic eye condition. Normally, a layer of tears covers the surface of the eye to keep it moist, and meibomian glands in the eyelids secrete oils to slow evaporation of these tears. Dry eye results if there is an insufficient supply of tears or if the tears evaporate too quickly. Meibomian gland dysfunction (MGD), where the glands don’t function properly either due to blockage or oil deficiency, is a leading cause of dry eye. People with dry eye may experience discomfort and have difficulty in reading, using a computer, watching TV and driving. In its most severe form, dry eye can be accompanied by inflammation of the eye surface, sleep disturbances and depression. The detrimental effects (physical, emotional, financial) can be quite significant. Dry eye is commonly confused with other conditions, in particular allergies. It can be tricky to diagnose because symptoms vary, are subjective and can be described in many different ways (e.g. ‘feels gritty’ vs ‘feels like something in my eye’). The condition can’t be cured, but available treatments aim to relieve symptoms and improve quality of life. The earlier dry eye is detected and treatment started the better.",
         "img": "https://www.eyecarehospital.org/wp-content/uploads/2019/01/OptiLasik.jpg"
     },
     {
         "id": 1004,
         "serviceName": "Bladeless Lasik Surgery",
-        "details":"No matter how ready you are for a life without spectacles or contact lemses, the decision to have Lasik is a big one. To know for sure that you are getting the safest, most trusted and most effective treatment available.",
+        "details": "No matter how ready you are for a life without spectacles or contact lemses, the decision to have Lasik is a big one. To know for sure that you are getting the safest, most trusted and most effective treatment available.",
+        "moreDetails": "LipiFlow is a treatment device specifically designed for effectively removing blockages from the meibomian glands, allowing them to properly function and produce the oils that make up the top protective lipid layer of the tear film. LipiFlow is becoming the standard of care for MGD with studies demonstrating its safe and effective results. LipiFlow was designed to minimize patient discomfort during a 12 minute in-office treatment that most patients describe as a gently massaging of the eye lids.The LipiFlow Thermal Pulsation System effectively relieves blockage of the eyelid glands. Opening the blocked eyelid glands allows the body to resume the natural production of lipids (oils) needed for the tear film.",
         "img": "https://www.eyecarehospital.org/wp-content/uploads/2019/01/Bladeless-Lasik-Surgery.jpg"
     },
     {
         "id": 1005,
         "serviceName": "Floaters and Flashes",
-        "details":"Sometimes people see small spots or specks moving in their field of vision or experience flashes of light. These occurrences are called floaters and flashes. Although annoying, floaters and flashes are generally of little importance.",
+        "details": "Sometimes people see small spots or specks moving in their field of vision or experience flashes of light. These occurrences are called floaters and flashes. Although annoying, floaters and flashes are generally importance.",
+        "moreDetails": "Sometimes a ruptured globe is fairly obvious because the globe is misshapen or contents are extruding. However, a rupture in the globe can also be fairly subtle, so you need to check for other clinical signs that suggest that the eye is open. Such signs would include the IOP in the traumatized eye being significantly lower than the fellow eye; if the pupil is a different size from the other eye or is misshapen in some way, suggesting that the iris may be plugging a peripheral wound; if the anterior chamber is shallower or deeper than the fellow eye; and if there is significant chemosis—usually 360 degrees and usually hemorrhagic—suggesting that there may be bleeding through a scleral rupture.",
         "img": "https://www.eyecarehospital.org/wp-content/uploads/2019/01/Floaters.jpg"
     },
     {
         "id": 1006,
         "serviceName": "Yag Laser",
-        "details":"A produces a concentrated beam of light that can focus on the iris or any thick membrane behind the intraocular lens. This laser beam can create a smooth, fine opening of desired size in these structures without affecting other sensitive parts of the eye.",
+        "details": "A produces a concentrated beam of light that can focus on the iris or any thick membrane behind the intraocular lens.Fine opening of desired size in these structures without affecting other sensitive parts of the eye.",
+        "moreDetails": "Management is entirely different depending on whether or not the globe is ruptured. Closed-globe injuries usually involve blunt force to the face or eye. “If the globe is closed, we follow an algorithm of checking to see what the injuries are. Are there any associated injuries such as orbital fractures or lacerations that need attention? Does the patient require antibiotics? This may be the case if there's an orbital fracture. Does the eye have a hyphema? Of course, we also want to examine the retina to make sure there's no obvious retinal tear or detachment. If the eye has a traumatic cataract that blocks the view, a gentle ultrasound through closed lids can help to evaluate for retinal detachment or tear. It's also important to look for any sign of traumatic optic neuropathy, which may manifest as acute swelling or hemorrhaging within the optic nerve.",
         "img": "https://www.eyecarehospital.org/wp-content/uploads/2019/01/yagg.jpg"
     }
-    
 ]

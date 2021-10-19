@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login/Login';
-import NotFound  from './Pages/NotFound/NotFound';
+import NotFound from './Pages/NotFound/NotFound';
 import Header from './Pages/Shared/Header/Header';
 import Footer from './Pages/Shared/Footer/Footer';
 import About from './Pages/About/About';
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <AuthProvider>
-      <Router>
+        <Router>
           <Header></Header>
           <Switch>
             <Route exact path="/">
@@ -36,7 +36,7 @@ function App() {
             <Route path="/contact">
               <Contact></Contact>
             </Route>
-            <PrivateRoute path="/service-details/:serviceID">
+            <PrivateRoute path="/service-details/:serviceId">
               <ServiceDetails></ServiceDetails>
             </PrivateRoute>
             <Route path="/login">
@@ -49,7 +49,7 @@ function App() {
           <Footer></Footer>
         </Router>
       </AuthProvider>
-        
+
     </div>
   );
 }
