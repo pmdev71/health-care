@@ -6,14 +6,14 @@ const ServiceDetails = () => {
     const { serviceId } = useParams();
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('/services.json')
+        fetch('/services.JSON')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
     const servicee = services.filter(service => service.id == serviceId)
     return (
         <div className="d-flex justify-content-center">
-            <div className="card m-5 w-75" >
+            <div className="card m- w-75" >
                 <div className="row g-0">
                     <div className="">
                         <img src={servicee[0]?.img} className="img-fluid rounded-start" alt="..." />

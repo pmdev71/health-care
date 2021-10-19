@@ -5,8 +5,7 @@
 Firebase live site link: [https://health-care-b8ac1.web.app/](https://health-care-b8ac1.web.app/)
 
 ### Project Details
-
-    Using ReactBootstrap Fremwork and Pure CSS in this project. Firebase Authentication using for login and registration. Firebase hosting used for hosting/deploy the live site. Intrigrate gmail and password loging system. We using BrowserRouter and private router on this project. useAuth using for access user at any page on this project. Dynamic route and protect routr intrigrate in this project. Different componant/page using different page.
+Using ReactBootstrap Fremwork and Pure CSS in this project. Firebase Authentication using for login and registration. Firebase hosting used for hosting/deploy the live site. Intrigrate gmail and password loging system. We using BrowserRouter and private router on this project. useAuth using for access user at any page on this project. Dynamic route and protect routr intrigrate in this project. Different componant/page using different page.
 
 
 ### How user can use it
