@@ -14,7 +14,7 @@ const ServiceDetails = () => {
     return (
         <div className="d-flex justify-content-center">
             {/* service details card */}
-            <div className="card m- w-75" >
+            <div className="card m-5 w-75" >
                 <div className="row g-0">
                     <div className="">
                         <img src={servicee[0]?.img} className="img-fluid rounded-start" alt="..." />
