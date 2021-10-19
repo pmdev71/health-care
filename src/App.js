@@ -36,12 +36,14 @@ function App() {
             <Route path="/contact">
               <Contact></Contact>
             </Route>
+            {/* private route */}
             <PrivateRoute path="/service-details/:serviceId">
               <ServiceDetails></ServiceDetails>
             </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>
+            {/* path not found */}
             <Route path="*">
               <NotFound></NotFound>
             </Route>

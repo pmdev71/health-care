@@ -50,6 +50,7 @@ const Login = () => {
             {user.email ? <div><h4 className="text-primary fs-bold mt-5">Successfully Login</h4><Link to="/home"><button className="btn btn-primary mt-3">HOME</button></Link></div> : <div className="my-5 mx-auto">
                 <div>
                     <h2 className="fw-bold p-2 my-4 bg-secondary text-white w-75 mx-auto">{isNotLogin ? "Registration First" : "Loging Now"}</h2>
+                    {/* email password login registration form */}
                     <Form className="w-50 mx-auto mt-5">
                         <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
                             <h5 className="text-danger"> {error} </h5>
@@ -88,6 +89,7 @@ const Login = () => {
                 </div>
 
                 <p>-----------OR-----------</p>
+                {/* gmail login button */}
                 <button className="btn btn-primary mb-3" onClick={signInUsingGoogle}>Google Sign in</button>
             </div>}
         </>

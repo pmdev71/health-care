@@ -13,6 +13,7 @@ const ServiceDetails = () => {
     const servicee = services.filter(service => service.id == serviceId)
     return (
         <div className="d-flex justify-content-center">
+            {/* service details card */}
             <div className="card m- w-75" >
                 <div className="row g-0">
                     <div className="">

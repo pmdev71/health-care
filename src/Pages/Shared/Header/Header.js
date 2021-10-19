@@ -8,6 +8,7 @@ const Header = () => {
     const { user, logOut } = useAuth();
     return (
         <>
+            {/* start navbar */}
             <Navbar className="" bg="dark" variant="light" sticky="top" collapseOnSelect expand="lg" >
                 <Container>
 

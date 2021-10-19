@@ -5,6 +5,7 @@ import Services from '../Services/Services';
 const Home = () => {
     return (
         <div>
+            {/* added caruser and services componamt */}
             <MyCarousel></MyCarousel>
             <Services></Services>
         </div>

@@ -16,7 +16,6 @@ const Service = (props) => {
         <Card.Body>
           <Card.Title className="cardTitle text-regular fs-3 fw-bold">{serviceName}</Card.Title>
           <hr></hr>
-
           <Card.Text>
             {details}
           </Card.Text>
